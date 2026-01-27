@@ -1,0 +1,90 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "display": {
+    "separator": " ➜ "
+  },
+  "logo": {
+    "color": {
+      "1": "#ffffff",
+      "2": "#ff00ff"
+    }
+  },
+  "modules": [
+    "break",
+    "break",
+    {
+    	"type": "host",
+	"key": "Device       ",
+	"format": "{5} {1}",
+	"keyColor": "bright_red"
+    },
+    {
+    	"type": "title",
+	"key": " ├   User   "
+    },
+    {
+    	"type": "localip",
+	"key":  " ├ 󰩟 Local IP",
+	"keyColor": "bright_red"
+    },
+    {
+        "type": "battery",
+        "key": " ├  Battery "
+    },
+    {
+    	"type": "uptime",
+	"key": " └  Uptime  "
+    },
+    "break",
+    {
+        "type": "os",
+        "key": "OS           ",
+        "keyColor": "bright_red"
+    },
+    {
+        "type": "kernel",
+        "key": " ├  Kernel  "
+    },
+    {
+        "type": "packages",
+        "key": " ├  Packages"
+    },
+    {
+        "type": "shell",
+        "key": " ├  Shell   "
+    },
+    {
+        "type": "de",
+        "key": " ├  Desktop "
+    },
+    {
+        "type": "terminal",
+        "key": " └  Terminal"
+    },
+    "break",
+    {
+	"type": "custom",
+	"format": "\u001b[1mSpecs\u001b[0m"
+    },
+    {
+        "type": "cpu",
+        "key": " ├  CPU     ",
+	"format": "{1} ({3}) @ {7} GHz"
+    },
+    {
+        "type": "gpu",
+        "key":  " ├ 󰢮 GPU     ",
+        "keyColor": "bright_red"
+    },
+    {
+        "type": "memory",
+        "key": " ├  Memory  "
+    },
+    {
+        "type": "disk",
+        "key": " └  Disk    "
+    },
+    "break",
+    "break"
+  ]
+}

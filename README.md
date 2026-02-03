@@ -4,7 +4,7 @@ My personal fastfetch config styled for Ubuntu
 
 ## Setup
 ```sh
-curl -O https://raw.githubusercontent.com/Kalbskinder/fastfetch/main/setup.sh | bash
+curl -s https://raw.githubusercontent.com/Kalbskinder/fastfetch/main/setup.sh | bash
 ```
 
 ## Recommended Theme
